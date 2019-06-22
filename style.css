@@ -1,0 +1,48 @@
+p{
+
+    font-size: 1.2em;
+}
+
+
+
+.weather-heading{
+
+    font-family: Helvetica
+
+}
+
+.weather-forecast {
+    
+    background-color: #c7d5ed;
+}
+
+.forecast {
+
+    color: #270538;
+    width: 10vh;
+    height: 10vh;
+    padding: 2em;
+    background-color: lightblue;
+    margin: 2em;
+
+}
+
+/* Give the class of "forecast" the following styles:
+A width of 10vh
+A height of 10vh
+Padding of 2em on all sides
+A background-color of lightblue
+A margin of 2em on all sides*/
+
+/* Give the class of "flex-container" a property of display: flex
+Use the justify-content property to center each child element inside of "flex-container"
+Use the flex-wrap property to make every child element inside flex-container wrap to the next line when the screen is resized */
+
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
